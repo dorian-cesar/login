@@ -24,7 +24,7 @@ try {
 
 // Configuración del JWT
 $secretKey = 'TU_SECRETO_COMPARTIDO'; // Cambia esto por una clave secreta segura
-$issuer = 'tu_sistema'; // Emisor del token (puede ser tu dominio o sistema)
+$issuer = 'localhost'; // Emisor del token (puede ser tu dominio o sistema)
 $audience = 'tu_aplicacion'; // Destinatario del token (por ejemplo, tu API)
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
