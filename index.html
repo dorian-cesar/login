@@ -62,7 +62,7 @@
                 const correo = $('#correoLogin').val();
                 const password = $('#passwordLogin').val();
 
-                $.post('login.php', { correo, password }, function (response) {
+                $.post('login-token.php', { correo, password }, function (response) {
                     if (response.success) {
                         window.location.href = 'dashboard.php';
                     } else {
